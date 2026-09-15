@@ -24,18 +24,12 @@
     }
 
     .profile-photo {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      background-color: #eeeeee;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #888;
-      font-size: 14px;
-      flex-shrink: 0;
-    }
-
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
     h1 {
       font-size: 2.7rem;
       margin-bottom: 8px;
@@ -94,9 +88,9 @@
 <body>
 
   <header>
-    <div class="profile-photo">
-      Photo
-    </div>
+  <img src="profile.jpg" alt="Yu He" class="profile-photo">
+
+  <div>
 
     <div>
       <h1>Yu He</h1>
